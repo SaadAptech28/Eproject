@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Document</title>
+    <style>
+        body{
+            background: url('Images/bg spice.jpg'); 
+            background-repeat: no-repeat;
+            background-size: cover;
+            max-width: 100%;
+            height: 100%;
+            
+        }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        h1 {
+            background-color: transparent; 
+            color: white;
+            text-align: center;
+            font-size: 4vw; 
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        p {
+            background-color: transparent; 
+            color: white;
+            text-align: center;
+            font-size: 2vw;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center; 
+        }
+
+        #COL {
+            flex: 1; 
+            display: flex;
+            flex-direction: column;
+            
+            margin: 5px; 
+        }
+
+        #COL img {
+            max-width: 100%;
+            height: auto; 
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px 0px rgb(42, 204, 42);
+        }
+
+        #COL img:hover {
+            cursor: pointer;
+            box-shadow: 0px 4px 8px 0px rgb(233, 16, 16);
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 6vw;
+            }
+
+            p {
+                font-size: 3vw;
+            }
+
+            .row {
+                flex-direction: column;
+            }
+
+            #COL {
+                margin: 10px;
+            }
+        }
+        .footer {
+    padding: 30px 0;
+    background-color: #333; 
+    text-align: center;
+    color: #fff; 
+}
+
+
+.footer h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-family: 'Cursive Font', cursive; 
+    animation: titleAnimation 1.5s ease-in-out infinite alternate;
+}
+
+@keyframes titleAnimation {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.1);
+    }
+}
+
+
+.footer p {
+    font-size: 18px;
+    animation: textFadeIn 1s ease;
+}
+
+@keyframes textFadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer ul li {
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 20px;
+}
+
+.footer ul li:before {
+    content: '\2022'; 
+    color: #099210; 
+    font-size: 20px;
+    position: absolute;
+    left: 0;
+    transition: color 0.3s;
+}
+
+
+.social-icons a {
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    margin: 0 10px;
+    transition: color 0.3s;
+    transform: scale(1);
+}
+
+.social-icons a i {
+    margin-right: 10px;
+}
+
+.social-icons a:hover {
+    color: #099210;
+    transform: scale(1.2);
+    transition: all 0.3s;
+}
+
+    </style>
+</head>
+<body>
+    
+    <h1><i>Gallery</i></h1>
+    <p><u><i>Following are the pictures of our Wonderful flavors from which delicious dishes are being made.</i></u></p>
+    <div class="row">
+        <div id="COL">
+            <img src="Images/sp6.jpg" alt="">
+            <img src="Images/sp16.jpg" alt="">
+            <img src="Images/sp5.jpg" alt="">
+            <img src="Images/sp10.jpg" alt="">
+            <img src="Images/sp8.jpg" alt="">
+            <img src="Images/sp1.jpg" alt="">
+        </div>
+        <div id="COL">
+            <img src="Images/sp7.jpg" alt="">
+            <img src="Images/sp11.jpg" alt="">
+            <img src="Images/sp9.jpg" alt="">
+            <img src="Images/sp17.jpg" alt="">
+            <img src="Images/sp2.jpg" alt="">
+            <img src="Images/sp15.jpg" alt="">
+        </div>
+        <div id="COL">
+            <img src="Images/sp4.jpg" alt="">
+            <img src="Images/sp3.jpg" alt="">
+            <img src="Images/sp13.jpg" alt="">
+            <img src="Images/sp14.jpg" alt="">
+            <img src="Images/sp12.jpg" alt="">
+            <img src="Images/sp18.jpg" alt="">
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h3>Contact Us</h3>
+                    <p>
+                        Flavors.<br>
+                        North Nazimabad<br>
+                        Karachi<br>
+                        Phone: 03112345678<br>
+                        Email: flavorandspice145@gmail.com
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="Index.html" class="fab fa-home"> Home</a></li>
+                        <li><a href="contact.html">ContactUs</Canvas></a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h3>Follow Us</h3>
+                    <ul class="social-icons">
+                        <li><a href="https://www.facebook.com/login/?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNjk3NTQzOTgxLCJjYWxsc2l0ZV9pZCI6MjY5NTQ4NDUzMDcyMDk1MX0%3D"><i class="fab fa-facebook"></i> Follow Us On Facebook</a></li>
+                        <li><a href="https://twitter.com/i/flow/login"><i class="fab fa-twitter"></i> Follow Us On Twitter</a></li>
+                        <li><a href="https://www.instagram.com/"><i class="fab fa-instagram"></i> Follow Us On Instagram</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>

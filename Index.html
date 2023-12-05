@@ -1,0 +1,843 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <title>Flavors</title>
+</head>
+
+<body>
+    <nav class="navbar sticky-top  navbar-expand-lg navbar-dark">
+        <div class="container p-0 m-0">
+            <a class="navbar-brand" href="#">
+                <img src="Images/Logo.jpg" alt="Logo " class="logo-img">
+                Spices & Herbs
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item1">
+                        <a class="nav-link active" aria-current="page" href="Index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="gallery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://maps.app.goo.gl/9N5foWmTxgCtCyKM9">SiteMap</a>
+                    </li>
+
+                    <div class="dropdown">
+                        <button class="btn btn-dark dropdown-toggle" style="background-color: black; padding-bottom: 10px;"
+                            type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            More Here
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="about.html">About Us</a></li>
+                            <li><a class="dropdown-item" href="new.html">New Arrivals</a></li>
+                            <li><a class="dropdown-item" href="best.html">Best Sellers</a></li>
+                            <li><a class="dropdown-item" href="hotdeals.html">Hot Deals</a></li>
+                        </ul>
+                    </div>
+                </ul>
+
+            </div>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <form class="d-flex" id="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" style="width: 60%;">
+                    <button class="btn btn-outline-success" style="height:40px; margin-left: 10px;"
+                        type="submit">Search</button>
+                    <a class="btn btn-outline-light" style="margin-left: 10px; height:40px ;"
+                        href="contact.html">ContactUs</a>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-5 ">
+        <div class="row">
+
+            <div class="col-md-3" data-aos="flip-left">
+
+                <div class="card">
+                    <img src="Images/Mace spice.jpg" class="card-img-top" alt="Saffron">
+                    <div class="card-body">
+                        <h5 class="card-title">Mace Spice</h5>
+                        <p class="card-text">Mace is a delicate, aromatic and versatile spice that grows on the tropical
+                            nutmeg tree (Myristica fragrans).</p>
+
+                        <div class="rating">
+                            <i class="fas fa-star" style="color:green"></i>
+                            <i class="fas fa-star" style="color:green"></i>
+                            <i class="fas fa-star" style="color:green"></i>
+                            <i class="far fa-star" style="color:green"></i>
+                            <i class="far fa-star" style="color:green"></i>
+                        </div>
+
+                        <a href="#" class="btn btn-outline-dark " id="buttonn" data-bs-toggle="modal"
+                            data-bs-target="#maceModal">
+                            Buy Now
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="col-md-3" data-aos="flip-left" data-aos-delay="100">
+                <div class="card">
+                    <img src="Images/Saffron.jpg" class="card-img-top" alt="Saffron">
+                    <div class="card-body">
+                        <h5 class="card-title">Saffron</h5>
+                        <p class="card-text">Saffron (Crocus sativus) is a plant. The dried thread-like parts of the
+                            flower (stigmas) are used to make saffron spice.</p>
+
+                        <div class="rating">
+                            <i class="fas fa-star" style="color:green"></i>
+                            <i class="fas fa-star" style="color:green"></i>
+                            <i class="fas fa-star" style="color:green"></i>
+                            <i class="fas fa-star" style="color:green"></i>
+                            <i class="far fa-star" style="color:green"></i>
+                        </div>
+
+                        <a href="#" class="btn btn-outline-dark " id="buttonn" data-bs-toggle="modal"
+                            data-bs-target="#saffronModal">
+                            Buy Now
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="col-md-3" data-aos="flip-left" data-aos-delay="200">
+                <div class="card">
+                    <img src="Images/Black Pepper.jpg" class="card-img-top" alt="Black Pepper">
+                    <div class="card-body">
+                        <h5 class="card-title">Black Pepper</h5>
+                        <p class="card-text">This pungent spice contains a variety of active compounds, specifically
+                            oleoresins and alkaloids like piperine</p>
+                        <div class="rating">
+                            <i class="fas fa-star" style="color:green"></i>
+                            <i class="fas fa-star" style="color:green"></i>
+                            <i class="fas fa-star" style="color:green"></i>
+                            <i class="fas fa-star" style="color:green"></i>
+                            <i class="far fa-star" style="color:green"></i>
+                        </div>
+                        <button type="button" class="btn btn-outline-dark " id="buttonn" data-bs-toggle="modal"
+                            data-bs-target="#blackpepperModal">
+                            Buy Now
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-3" data-aos="flip-left" data-aos-delay="300">
+                <div class="card">
+                    <img src="Images/Cardamom.jpg" class="card-img-top" alt="Cardamom">
+                    <div class="card-body">
+                        <h5 class="card-title">Cardamom</h5>
+                        <p class="card-text">Cardamom is an herb that is often used as a spice in foods. Many Indian and
+                            Indian-inspired dishes call for cardamom</p>
+                        <div class="rating">
+                            <i class="fas fa-star" style="color:green"></i>
+                            <i class="fas fa-star" style="color:green"></i>
+                            <i class="far fa-star" style="color:green"></i>
+                            <i class="far fa-star" style="color:green"></i>
+                            <i class="far fa-star" style="color:green"></i>
+                        </div>
+                        <button type="button" class="btn btn-outline-dark " data-bs-toggle="modal"
+                            data-bs-target="#CardamomModal">
+                            Buy Now
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3" data-aos="flip-left" data-aos-delay="400">
+                <div class="card">
+                    <img src="Images/chillipepper.jpg" class="card-img-top" alt="chillipepper">
+                    <div class="card-body">
+                        <h5 class="card-title">Chilli Pepper</h5>
+                        <p class="card-text">Chili peppers (Capsicum annuum) are the fruits of Capsicum pepper
+                            plants,
+                            notable for their hot flavor. They're rich in vitamins</p>
+                        <div class="rating">
+                            <i class="fas fa-star" style="color:green"></i>
+                            <i class="fas fa-star" style="color:green"></i>
+                            <i class="fas fa-star" style="color:green"></i>
+                            <i class="far fa-star" style="color:green"></i>
+                            <i class="far fa-star" style="color:green"></i>
+                        </div>
+                        <button type="button" class="btn btn-outline-dark " data-bs-toggle="modal"
+                            data-bs-target="#chillipepperModal">
+                            Buy Now
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-3" data-aos="flip-left" data-aos-delay="500">
+                <div class="card">
+                    <img src="Images/Coriander.jpg" class="card-img-top" alt="Coriander">
+                    <div class="card-body">
+                        <h5 class="card-title">Coriander</h5>
+                        <p class="card-text">Coriander leaves and seeds are full of vitamin K, which plays an
+                            important role in helping your blood clot. which are used as flavor</p>
+                        <div class="rating">
+                            <i class="fas fa-star" style="color:green"></i>
+                            <i class="fas fa-star" style="color:green"></i>
+                            <i class="fas fa-star" style="color:green"></i>
+                            <i class="fas fa-star" style="color:green"></i>
+                            <i class="far fa-star" style="color:green"></i>
+                        </div>
+                        <button type="button" class="btn btn-outline-dark " data-bs-toggle="modal"
+                            data-bs-target="#corianderModal">
+                            Buy Now
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3" data-aos="flip-left" data-aos-delay="600">
+                <div class="card">
+                    <img src="Images/Curcuma.jpg" class="card-img-top" alt="Curcuma">
+                    <div class="card-body">
+                        <h5 class="card-title">Curcuma</h5>
+                        <p class="card-text">Turmeric is a common spice and a major ingredient in curry powder.
+                            Curcumin is a major component of turmeric</p>
+                        <div class="rating">
+                            <i class="fas fa-star" style="color:green"></i>
+                            <i class="fas fa-star" style="color:green"></i>
+                            <i class="fas fa-star" style="color:green"></i>
+                            <i class="far fa-star" style="color:green"></i>
+                            <i class="far fa-star" style="color:green"></i>
+                        </div>
+                        <button type="button" class="btn btn-outline-dark " data-bs-toggle="modal"
+                            data-bs-target="#curcumaModal">
+                            Buy Now
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-3" data-aos="flip-left" data-aos-delay="700">
+                <div class="card">
+                    <img src="Images/flax seed.jpg" class="card-img-top" alt="flax seed">
+                    <div class="card-body">
+                        <h5 class="card-title">Flax Seed</h5>
+                        <p class="card-text">Flax (Linum usitatissimum) is a food and fiber crop. Flaxseeds are a
+                            good
+                            source of dietary fiber and omega-3 fatty acids</p>
+                        <div class="rating">
+                            <i class="fas fa-star" style="color:green"></i>
+                            <i class="fas fa-star" style="color:green"></i>
+                            <i class="far fa-star" style="color:green"></i>
+                            <i class="far fa-star" style="color:green"></i>
+                            <i class="far fa-star" style="color:green"></i>
+                        </div>
+                        <button type="button" class="btn btn-outline-dark " data-bs-toggle="modal"
+                            data-bs-target="#flaxseedsModal">
+                            Buy Now
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3" data-aos="flip-left" data-aos-delay="800">
+                <div class="card">
+                    <img src="Images/fennel.jpg" class="card-img-top" alt="Fennel">
+                    <div class="card-body">
+                        <h5 class="card-title">Fennel</h5>
+                        <p class="card-text">Fennel has been used to flavor candies, liqueurs, medicines, and food,
+                            and
+                            it is especially favored for pastries, sweet pickles</p>
+                        <div class="rating">
+                            <i class="fas fa-star" style="color:green"></i>
+                            <i class="fas fa-star" style="color:green"></i>
+                            <i class="fas fa-star" style="color:green"></i>
+                            <i class="far fa-star" style="color:green"></i>
+                            <i class="far fa-star" style="color:green"></i>
+                        </div>
+                        <button type="button" class="btn btn-outline-dark " data-bs-toggle="modal"
+                            data-bs-target="#fennelModal">
+                            Buy Now
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-3" data-aos="flip-left" data-aos-delay="900">
+                <div class="card">
+                    <img src="Images/Garlic.jpg" class="card-img-top" alt="Garlic">
+                    <div class="card-body">
+                        <h5 class="card-title">Garlic</h5>
+                        <p class="card-text">Garlic offers an immune system boost to help prevent colds and the flu
+                            virus. Children get six to eight colds each year</p>
+                        <div class="rating">
+                            <i class="fas fa-star" style="color:green"></i>
+                            <i class="fas fa-star" style="color:green"></i>
+                            <i class="fas fa-star" style="color:green"></i>
+                            <i class="fas fa-star" style="color:green"></i>
+                            <i class="far fa-star" style="color:green"></i>
+                        </div>
+                        <button type="button" class="btn btn-outline-dark " data-bs-toggle="modal"
+                            data-bs-target="#garlicModal">
+                            Buy Now
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3" data-aos="flip-left" data-aos-delay="1000">
+                <div class="card">
+                    <img src="Images/oregano.jpg" class="card-img-top" alt="Oregano">
+                    <div class="card-body">
+                        <h5 class="card-title">Oregano</h5>
+                        <p class="card-text">Oregano adds flavor to savory dishes. It may also have health benefits
+                            due
+                            to its anti-inflammatory. People use oregano </p>
+                        <div class="rating">
+                            <i class="fas fa-star" style="color:green"></i>
+                            <i class="fas fa-star" style="color:green"></i>
+                            <i class="far fa-star" style="color:green"></i>
+                            <i class="far fa-star" style="color:green"></i>
+                            <i class="far fa-star" style="color:green"></i>
+                        </div>
+                        <button type="button" class="btn btn-outline-dark " data-bs-toggle="modal"
+                            data-bs-target="#oreganoModal">
+                            Buy Now
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-3" data-aos="flip-left" data-aos-delay="1100">
+                <div class="card">
+                    <img src="Images/paprika.jpg" class="card-img-top" alt="paprika">
+                    <div class="card-body">
+                        <h5 class="card-title">Paprika</h5>
+                        <p class="card-text">Paprika contains capsaicin, a compound found in peppers that has been
+                            shown to have a wide range of health benefits </p>
+                        <div class="rating">
+                            <i class="fas fa-star" style="color:green"></i>
+                            <i class="fas fa-star" style="color:green"></i>
+                            <i class="fas fa-star" style="color:green"></i>
+                            <i class="far fa-star" style="color:green"></i>
+                            <i class="far fa-star" style="color:green"></i>
+                        </div>
+                        <button type="button" class="btn btn-outline-dark " data-bs-toggle="modal"
+                            data-bs-target="#PaprikaModal">
+                            Buy Now
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3" data-aos="flip-left" data-aos-delay="1200">
+                <div class="card">
+                    <img src="Images/Salt.jpg" class="card-img-top" alt="Salt">
+                    <div class="card-body">
+                        <h5 class="card-title">Salt</h5>
+                        <p class="card-text">It flavors food and is used as a binder and stabilizer. It is also a food
+                            preservative, bacteria can't thrive in the presence of a high amount of salt</p>
+                        <div class="rating">
+                            <i class="fas fa-star" style="color:green"></i>
+                            <i class="fas fa-star" style="color:green"></i>
+                            <i class="fas fa-star" style="color:green"></i>
+                            <i class="fas fa-star" style="color:green"></i>
+                            <i class="far fa-star" style="color:green"></i>
+                        </div>
+                        <button type="button" class="btn btn-outline-dark " data-bs-toggle="modal"
+                            data-bs-target="#SaltModal">
+                            Buy Now
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-3" data-aos="flip-left" data-aos-delay="1300">
+                <div class="card">
+                    <img src="Images/caromseeds.jpg" class="card-img-top" alt="caromseeds">
+                    <div class="card-body">
+                        <h5 class="card-title">Carom Seeds</h5>
+                        <p class="card-text">Carom seeds, also known as ajwain or bishop's weed, are the seeds of the
+                            plant Trachyspermum ammi. They are commonly used as a spice </p>
+                        <div class="rating">
+                            <i class="fas fa-star" style="color:green"></i>
+                            <i class="fas fa-star" style="color:green"></i>
+                            <i class="far fa-star" style="color:green"></i>
+                            <i class="far fa-star" style="color:green"></i>
+                            <i class="far fa-star" style="color:green"></i>
+                        </div>
+                        <button type="button" class="btn btn-outline-dark " data-bs-toggle="modal"
+                            data-bs-target="#caromModal">
+                            Buy Now
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="modal fade" id="maceModal" tabindex="-1" aria-labelledby="maceModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="maceModalLabel">Mace Spice</h5>
+                        </div>
+                        <div class="modal-body">
+                            <img src="Images/Mace spice.jpg" class="image-size" alt="Mace Spice">
+                        </div>
+                        <div class="modal-footer d-flex justify-content-between">
+
+                            <div class="rating">
+                                <i class="fas fa-star" style="color:green"></i>
+                                <i class="fas fa-star" style="color:green"></i>
+                                <i class="fas fa-star" style="color:green"></i>
+                                <i class="far fa-star" style="color:green"></i>
+                                <i class="far fa-star" style="color:green"></i>
+                            </div>
+
+                            <p>1.99$
+                                <button type="button" class="btn btn-outline-success">Add To Cart</button>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="saffronModal" tabindex="-1" aria-labelledby="saffronModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="saffronModalLabel">Saffron</h5>
+                        </div>
+                        <div class="modal-body">
+                            <img src="Images/Saffron.jpg" class="image-size" alt="Saffron">
+                        </div>
+                        <div class="modal-footer d-flex justify-content-between">
+
+                            <div class="rating">
+                                <i class="fas fa-star" style="color:green"></i>
+                                <i class="fas fa-star" style="color:green"></i>
+                                <i class="fas fa-star" style="color:green"></i>
+                                <i class="fas fa-star" style="color:green"></i>
+                                <i class="far fa-star" style="color:green"></i>
+                            </div>
+
+                            <p>1.29$
+                                <button type="button" class="btn btn-outline-success">Add To Cart</button>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="blackpepperModal" tabindex="-1" aria-labelledby="blackpepperModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="blackpepperModalLabel">Black Pepper</h5>
+                        </div>
+                        <div class="modal-body">
+                            <img src="Images/Black Pepper.jpg" class="image-size" alt="blackpepper">
+                        </div>
+                        <div class="modal-footer d-flex justify-content-between">
+
+                            <div class="rating">
+                                <i class="fas fa-star" style="color:green"></i>
+                                <i class="fas fa-star" style="color:green"></i>
+                                <i class="fas fa-star" style="color:green"></i>
+                                <i class="fas fa-star" style="color:green"></i>
+                                <i class="far fa-star" style="color:green"></i>
+                            </div>
+
+
+                            <p>1.00$
+                                <button type="button" class="btn btn-outline-success">Add To Cart</button>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="fennelModal" tabindex="-1" aria-labelledby="fennelModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="fennelModalLabel">Fennel</h5>
+                        </div>
+                        <div class="modal-body">
+                            <img src="Images/fennel.jpg" class="image-size" alt="fennel">
+                        </div>
+                        <div class="modal-footer d-flex justify-content-between">
+
+                            <div class="rating">
+                                <i class="fas fa-star" style="color:green"></i>
+                                <i class="fas fa-star" style="color:green"></i>
+                                <i class="fas fa-star" style="color:green"></i>
+                                <i class="far fa-star" style="color:green"></i>
+                                <i class="far fa-star" style="color:green"></i>
+                            </div>
+
+
+                            <p>0.70$
+                                <button type="button" class="btn btn-outline-success">Add To Cart</button>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="garlicModal" tabindex="-1" aria-labelledby="garlicModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="garlicModalLabel">Garlic</h5>
+                        </div>
+                        <div class="modal-body">
+                            <img src="Images/Garlic.jpg" class="image-size" alt="Garlic">
+                        </div>
+                        <div class="modal-footer d-flex justify-content-between">
+
+                            <div class="rating">
+                                <i class="fas fa-star" style="color:green"></i>
+                                <i class="fas fa-star" style="color:green"></i>
+                                <i class="fas fa-star" style="color:green"></i>
+                                <i class="fas fa-star" style="color:green"></i>
+                                <i class="far fa-star" style="color:green"></i>
+                            </div>
+
+
+                            <p>3.99$
+                                <button type="button" class="btn btn-outline-success">Add To Cart</button>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="oreganoModal" tabindex="-1" aria-labelledby="oreganoModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="oreganoModalLabel">Oregano</h5>
+                        </div>
+                        <div class="modal-body">
+                            <img src="Images/oregano.jpg" class="image-size" alt="Garlic">
+                        </div>
+                        <div class="modal-footer d-flex justify-content-between">
+
+                            <div class="rating">
+                                <i class="fas fa-star" style="color:green"></i>
+                                <i class="fas fa-star" style="color:green"></i>
+                                <i class="far fa-star" style="color:green"></i>
+                                <i class="far fa-star" style="color:green"></i>
+                                <i class="far fa-star" style="color:green"></i>
+                            </div>
+
+
+                            <p>3.99$
+                                <button type="button" class="btn btn-outline-success">Add To Cart</button>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="CardamomModal" tabindex="-1" aria-labelledby="cardamomModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="cardamomModalLabel">Cardamom</h5>
+                        </div>
+                        <div class="modal-body">
+                            <img src="Images/Cardamom.jpg" class="image-size" alt="Cardamom">
+                        </div>
+                        <div class="modal-footer d-flex justify-content-between">
+
+                            <div class="rating">
+                                <i class="fas fa-star" style="color:green"></i>
+                                <i class="fas fa-star" style="color:green"></i>
+                                <i class="far fa-star" style="color:green"></i>
+                                <i class="far fa-star" style="color:green"></i>
+                                <i class="far fa-star" style="color:green"></i>
+                            </div>
+
+
+                            <p>1.79$
+                                <button type="button" class="btn btn-outline-success">Add To Cart</button>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="chillipepperModal" tabindex="-1" aria-labelledby="chillipepperModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="chillipepperModalLabel">Chilli Pepper</h5>
+                        </div>
+                        <div class="modal-body">
+                            <img src="Images/chillipepper.jpg" class="image-size" alt="chillipepper">
+                        </div>
+                        <div class="modal-footer d-flex justify-content-between">
+
+                            <div class="rating">
+                                <i class="fas fa-star" style="color:green"></i>
+                                <i class="fas fa-star" style="color:green"></i>
+                                <i class="fas fa-star" style="color:green"></i>
+                                <i class="far fa-star" style="color:green"></i>
+                                <i class="far fa-star" style="color:green"></i>
+                            </div>
+
+
+                            <p>0.60$
+                                <button type="button" class="btn btn-outline-success">Add To Cart</button>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="corianderModal" tabindex="-1" aria-labelledby="corianderModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="corianderModalLabel">Coriander
+                            </h5>
+                        </div>
+                        <div class="modal-body">
+                            <img src="Images/Coriander.jpg" class="image-size" alt="coriander">
+                        </div>
+                        <div class="modal-footer d-flex justify-content-between">
+
+                            <div class="rating">
+                                <i class="fas fa-star" style="color:green"></i>
+                                <i class="fas fa-star" style="color:green"></i>
+                                <i class="fas fa-star" style="color:green"></i>
+                                <i class="fas fa-star" style="color:green"></i>
+                                <i class="far fa-star" style="color:green"></i>
+                            </div>
+
+
+                            <p>1.30$
+                                <button type="button" class="btn btn-outline-success">Add To Cart</button>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="curcumaModal" tabindex="-1" aria-labelledby="curcumaModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="curcumaModalLabel">Curcuma
+                            </h5>
+                        </div>
+                        <div class="modal-body">
+                            <img src="Images/Curcuma.jpg" class="image-size" alt="curcuma">
+                        </div>
+                        <div class="modal-footer d-flex justify-content-between">
+
+                            <div class="rating">
+                                <i class="fas fa-star" style="color:green"></i>
+                                <i class="fas fa-star" style="color:green"></i>
+                                <i class="fas fa-star" style="color:green"></i>
+                                <i class="far fa-star" style="color:green"></i>
+                                <i class="far fa-star" style="color:green"></i>
+                            </div>
+
+
+                            <p>0.29$
+                                <button type="button" class="btn btn-outline-success">Add To Cart</button>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="flaxseedsModal" tabindex="-1" aria-labelledby="flaxseedsModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="curcumaModalLabel">Flaxseeds
+                            </h5>
+                        </div>
+                        <div class="modal-body">
+                            <img src="Images/flax seed.jpg" class="image-size" alt="Flaxseeds">
+                        </div>
+                        <div class="modal-footer d-flex justify-content-between">
+
+                            <div class="rating">
+                                <i class="fas fa-star" style="color:green"></i>
+                                <i class="fas fa-star" style="color:green"></i>
+                                <i class="far fa-star" style="color:green"></i>
+                                <i class="far fa-star" style="color:green"></i>
+                                <i class="far fa-star" style="color:green"></i>
+                            </div>
+
+
+                            <p>0.40$
+                                <button type="button" class="btn btn-outline-success">Add To Cart</button>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="fennelModal" tabindex="-1" aria-labelledby="fennelModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="fennelModalLabel">Fennel
+                            </h5>
+                        </div>
+                        <div class="modal-body">
+                            <img src="Images/fennel.jpg" class="image-size" alt="fennel">
+                        </div>
+                        <div class="modal-footer d-flex justify-content-between">
+
+                            <div class="rating">
+                                <i class="fas fa-star" style="color:green"></i>
+                                <i class="fas fa-star" style="color:green"></i>
+                                <i class="fas fa-star" style="color:green"></i>
+                                <i class="far fa-star" style="color:green"></i>
+                                <i class="far fa-star" style="color:green"></i>
+                            </div>
+
+
+                            <p>2.50$
+                                <button type="button" class="btn btn-outline-success">Add To Cart</button>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="PaprikaModal" tabindex="-1" aria-labelledby="PaprikaModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="PaprikaModalLabel">Paprika
+                            </h5>
+                        </div>
+                        <div class="modal-body">
+                            <img src="Images/paprika.jpg" class="image-size" alt="Paprika">
+                        </div>
+                        <div class="modal-footer d-flex justify-content-between">
+
+                            <div class="rating">
+                                <i class="fas fa-star" style="color:green"></i>
+                                <i class="fas fa-star" style="color:green"></i>
+                                <i class="fas fa-star" style="color:green"></i>
+                                <i class="far fa-star" style="color:green"></i>
+                                <i class="far fa-star" style="color:green"></i>
+                            </div>
+
+
+                            <p>0.99$
+                                <button type="button" class="btn btn-outline-success">Add To Cart</button>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="modal fade" id="SaltModal" tabindex="-1" aria-labelledby="SaltModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="SaltModalLabel">Salt
+                            </h5>
+                        </div>
+                        <div class="modal-body">
+                            <img src="Images/Salt.jpg" class="image-size" alt="Salt">
+                        </div>
+                        <div class="modal-footer d-flex justify-content-between">
+
+                            <div class="rating">
+                                <i class="fas fa-star" style="color:green"></i>
+                                <i class="fas fa-star" style="color:green"></i>
+                                <i class="fas fa-star" style="color:green"></i>
+                                <i class="fas fa-star" style="color:green"></i>
+                                <i class="far fa-star" style="color:green"></i>
+                            </div>
+
+
+                            <p>1.50$
+                                <button type="button" class="btn btn-outline-success">Add To Cart</button>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="modal fade" id="caromModal" tabindex="-1" aria-labelledby="caromModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="caromModalLabel">Carom Seeds
+                            </h5>
+                        </div>
+                        <div class="modal-body">
+                            <img src="Images/caromseeds.jpg" class="image-size" alt="carom">
+                        </div>
+                        <div class="modal-footer d-flex justify-content-between">
+
+                            <div class="rating">
+                                <i class="fas fa-star" style="color:green"></i>
+                                <i class="fas fa-star" style="color:green"></i>
+                                <i class="far fa-star" style="color:green"></i>
+                                <i class="far fa-star" style="color:green"></i>
+                                <i class="far fa-star" style="color:green"></i>
+                            </div>
+
+
+                            <p>1.50$
+                                <button type="button" class="btn btn-outline-success">Add To Cart</button>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+                    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+                    crossorigin="anonymous"></script>
+                <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+                <script>
+                    AOS.init();
+                </script>
+</body>
+
+</html>
